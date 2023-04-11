@@ -3,7 +3,8 @@
   <!-- <WatchExample /> -->
   <!-- <VModelExample /> -->
   <!-- <TeleportExample /> -->
-  <SuspenseExample />
+  <!-- <SuspenseExample /> -->
+  <LazyLoad />
 </template>
 
 <script>
@@ -11,7 +12,8 @@
 // import WatchExample from './components/WatchExample.vue'
 // import VModelExample from './components/v-model/VModelExample.vue'
 // import TeleportExample from './components/TeleportExample.vue'
-import SuspenseExample from './components/suspense/SuspenseExample.vue';
+// import SuspenseExample from './components/suspense/SuspenseExample.vue';
+import LazyLoad from './components/lazy-load-components/LazyLoad.vue';
 export default {
   name: 'App',
   components: {
@@ -19,7 +21,8 @@ export default {
     // WatchExample,
     // VModelExample,
     // TeleportExample,
-    SuspenseExample
+    // SuspenseExample,
+    LazyLoad
   }
 }
 </script>
