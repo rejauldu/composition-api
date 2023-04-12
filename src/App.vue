@@ -4,7 +4,8 @@
   <!-- <VModelExample /> -->
   <!-- <TeleportExample /> -->
   <!-- <SuspenseExample /> -->
-  <LazyLoad />
+  <!-- <LazyLoad /> -->
+  <VuexExample />
 </template>
 
 <script>
@@ -13,7 +14,8 @@
 // import VModelExample from './components/v-model/VModelExample.vue'
 // import TeleportExample from './components/TeleportExample.vue'
 // import SuspenseExample from './components/suspense/SuspenseExample.vue';
-import LazyLoad from './components/lazy-load-components/LazyLoad.vue';
+// import LazyLoad from './components/lazy-load-components/LazyLoad.vue';
+import VuexExample from './components/VuexExample.vue';
 export default {
   name: 'App',
   components: {
@@ -22,7 +24,8 @@ export default {
     // VModelExample,
     // TeleportExample,
     // SuspenseExample,
-    LazyLoad
+    // LazyLoad,
+    VuexExample
   }
 }
 </script>
