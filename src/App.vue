@@ -5,7 +5,11 @@
   <!-- <TeleportExample /> -->
   <!-- <SuspenseExample /> -->
   <!-- <LazyLoad /> -->
-  <VuexExample />
+  <!-- <VuexExample /> -->
+  <div>
+    <div><router-link to="/">Home</router-link> <router-link to="/posts">Post</router-link> <router-link to="/create">Create</router-link></div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
@@ -15,7 +19,7 @@
 // import TeleportExample from './components/TeleportExample.vue'
 // import SuspenseExample from './components/suspense/SuspenseExample.vue';
 // import LazyLoad from './components/lazy-load-components/LazyLoad.vue';
-import VuexExample from './components/VuexExample.vue';
+// import VuexExample from './components/VuexExample.vue';
 export default {
   name: 'App',
   components: {
@@ -25,7 +29,7 @@ export default {
     // TeleportExample,
     // SuspenseExample,
     // LazyLoad,
-    VuexExample
+    // VuexExample
   }
 }
 </script>
